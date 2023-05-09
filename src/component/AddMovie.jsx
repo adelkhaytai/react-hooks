@@ -41,7 +41,7 @@ const AddMovie = ({movies, setMovies}) => {
 
     return (
         <div>
-            <Button onClick={handleOpen} variant="contained">Contained</Button>
+            <Button onClick={handleOpen} variant="contained">Add Movie</Button>
             <Modal
                 open={open}
                 onClose={handleClose}
