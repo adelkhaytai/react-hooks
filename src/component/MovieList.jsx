@@ -22,7 +22,7 @@ const MovieList = ({movies, setMovies, filterTitle, filterRating}) => {
         .map(movie =>{
           return(
            <Link to={`${movie.id}`} key={movie.id} >
-               <MovieCard  movie={movie} />
+               <MovieCard  movie={movie} />gi
            </Link>
           )  
       })}
